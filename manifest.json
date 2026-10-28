@@ -1,0 +1,42 @@
+{
+  "id": "horizon-shaders-1.0.0",
+  "minecraft": "26.3",
+  "base": "v0.2.93",
+  "base_commit": "b6c936f82b08798057161bdfa577e3aac53fb91e",
+  "client": {
+    "sha256": "63e03f4491764eeafba04ad0ff01a2c11a59659adeb03167bd1fde32756649d0",
+    "known_original_sha256": [
+      "5a640f0bb75e31e9fa06369a0127b88a3012a6a08bad45809bdf27fec0519a8c"
+    ]
+  },
+  "runtime": [
+    {
+      "file": "dxcompiler.dll",
+      "sha256": "f79943b02f73b621421b58a569fd6ee120d0023fb6bfa23844ecad6b00d6a295"
+    },
+    {
+      "file": "dxil.dll",
+      "sha256": "62736e99aa534a942873f92b881a71b2cb6ad62b8d7481ea7a8ad8e9888a8056"
+    }
+  ],
+  "packs": [
+    {
+      "name": "Photon Shaders",
+      "file": "photon_v1.4.zip",
+      "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/BnGklH5y/photon_v1.4.zip",
+      "sha512": "2dec87084dccf91a72a06235ecbfb3627f066699b5f70583f06077cba61433aedbfa6af28eb68bf1cdc726149cc3d9a587517cfab59e6a24e9d6a40b6874d655",
+      "page": "https://modrinth.com/shader/photon-shader",
+      "version_id": "BnGklH5y",
+      "acquisition": "original-modrinth-download"
+    },
+    {
+      "name": "Complementary Shaders - Unbound",
+      "file": "ComplementaryUnbound_r5.9.3.zip",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip",
+      "sha512": "a085d1d8cda67cd17a2b414eeba48bbd809da069f269bab46246235ec8fe714a275013c70d0504527b0987d810deddddba4564332414ab3b3bd7435932ff808c",
+      "page": "https://modrinth.com/shader/complementary-unbound",
+      "version_id": "B1kyfoUZ",
+      "acquisition": "manual-official-page"
+    }
+  ]
+}
